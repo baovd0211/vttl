@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninh Binh Heritage | Vietnamnomad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav nav--transparent" id="navbar">
+        <div class="nav-inner">
+            <a href="#" class="nav-brand">Vietnamnomad</a>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#map">Map</a></li>
+                <li><a href="#destinations">Tour</a></li>
+                <li><a href="#stories">Stories</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="nav-icon hamburger">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+                <button class="btn btn-pill" style="border-color: rgba(255,255,255,0.4);">SIGN IN</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Cinematic Section -->
+    <header class="hero">
+        <div class="hero-bg" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDOT7WBbX9yX3j7OAIPtuveyUmhPwIcguKmxkXoKn24UBlv6rhN3CDGNGHIipHsMEnK_29mkRDdeTV6ZFP_NlFIVHceYh9MwWlZrveTUBZqWt_--y0KbWnpBKoPlIJKhja2B8YlQoqAyByQpFpEnjq8WJeQw2etkuMBo_qm_vRVYK4cBfHYzTGwlZ3dPJoe2R0omEMWHSlcAOID-grn6yIopuo7Ki4hEFmrspkTdgtkXiL-_pkgevd55rHSlVVHpiKsMB-rxFr0P-o');"></div>
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content fade-up">
+            <div class="hero-chips">
+                <span class="chip chip-white">Di Sản Thiên Nhiên</span>
+                <span class="chip chip-white">Hà Nam - Ninh Bình</span>
+            </div>
+            <h1 class="display-lg hero-title">Di sản cất tiếng.</h1>
+            <p class="hero-subtitle">Bức tranh thuỷ mặc nơi núi sông giao hoà, lưu giữ những dấu ấn thời gian tự ngàn xưa. Hãy để Vietnamnomad đưa bạn vào hành trình khám phá.</p>
+            <div class="hero-cta">
+                <a href="#map" class="btn btn-primary">
+                    Khám phá Bản đồ
+                    <span class="material-symbols-outlined">explore</span>
+                </a>
+                <a href="#destinations" class="btn btn-ghost" style="color: white; border-color: white;">
+                    Xem Hành trình
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <span class="material-symbols-outlined">keyboard_arrow_down</span>
+        </div>
+    </header>
+
+    <!-- Interactive Map Section -->
+    <section id="map" class="section bg-surface-container-low" style="padding-bottom: 0;">
+        <div class="container-wide">
+            <div class="section-header fade-up">
+                <span class="label-caps">Smart Map</span>
+                <h2 class="headline-md">Hành trình Di sản</h2>
+                <p>Khám phá vùng đất cố đô qua góc nhìn toàn cảnh. Mỗi điểm đến là một câu chuyện lịch sử hoà quyện cùng thiên nhiên.</p>
+            </div>
+
+            <div class="map-section fade-up">
+                <div class="map-bg-full" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDcoJHfpCkUNq9Xf2bBEZPtMej_sjFhT3aokQMQHnfBJOhkxlMsaBLqavdfmmGiXSJEbwHRKKYXHXjdYSgvoaw0sGHon8ZO1h678_l9M8YaWSz_YHT2NNr4iysP3vzjdFubagOZ8KGhCnznTja1CrwGEHexuTb_Ytlf3J4C3zqMOyFPSTb2ivH_PtQ9XNTCzD1EXQ5-cKafBF15l6UKMwvA6oGgFhMgvc9RrUndRMJLoUAC8cU9d3XjDbZ4oU4UsTJ8H1MbJV_JtB4');"></div>
+                <div class="map-overlay-gradient"></div>
+
+                <!-- Markers (Sample subset from Smart Map) -->
+                <div class="marker marker-active" style="top: 40%; left: 40%;">
+                    <div class="marker-dot"><span class="material-symbols-outlined">sailing</span></div>
+                    <div class="marker-tooltip"><div class="marker-tooltip-inner">Tràng An</div><div class="marker-tooltip-arrow"></div></div>
+                </div>
+
+                <div class="marker marker-nature" style="top: 55%; left: 38%;">
+                    <div class="marker-dot"><span class="material-symbols-outlined">landscape</span></div>
+                    <div class="marker-tooltip"><div class="marker-tooltip-inner">Tam Cốc – Bích Động</div><div class="marker-tooltip-arrow"></div></div>
+                </div>
+
+                <div class="marker marker-heritage" style="top: 25%; left: 30%;">
+                    <div class="marker-dot"><span class="material-symbols-outlined">temple_buddhist</span></div>
+                    <div class="marker-tooltip"><div class="marker-tooltip-inner">Chùa Bái Đính</div><div class="marker-tooltip-arrow"></div></div>
+                </div>
+
+                <div class="marker marker-heritage" style="top: 35%; left: 35%;">
+                    <div class="marker-dot"><span class="material-symbols-outlined">account_balance</span></div>
+                    <div class="marker-tooltip"><div class="marker-tooltip-inner">Cố đô Hoa Lư</div><div class="marker-tooltip-arrow"></div></div>
+                </div>
+
+                <div class="marker marker-nature" style="top: 25%; left: 55%;">
+                    <div class="marker-dot"><span class="material-symbols-outlined">landscape</span></div>
+                    <div class="marker-tooltip"><div class="marker-tooltip-inner">Kẽm Trống</div><div class="marker-tooltip-arrow"></div></div>
+                </div>
+
+                <!-- Floating Interactive Card -->
+                <div class="map-float-card">
+                    <div class="map-float-card-inner">
+                        <div>
+                            <div style="font-size: 12px; font-weight: 600; color: var(--on-surface-variant); margin-bottom: 4px; text-transform: uppercase;">Điểm đến nổi bật</div>
+                            <div style="font-family: var(--font-serif); font-size: 18px; font-weight: 600; color: var(--primary);">Kẽm Trống - Hà Nam</div>
+                        </div>
+                        <button class="btn-icon" style="background: var(--primary-container); color: white; width: 40px; height: 40px; border-radius: 50%; border: none; display: flex; align-items: center; justify-content: center; cursor: pointer;">
+                            <span class="material-symbols-outlined">arrow_forward</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Grid -->
+    <section id="destinations" class="section">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="label-caps">Điểm đến</span>
+                <h2 class="headline-md">Tuyệt tác thiên nhiên</h2>
+                <p>Những địa danh đi vào thơ ca, nơi con người và tự nhiên hoà làm một.</p>
+            </div>
+
+            <div class="dest-grid fade-up">
+                <!-- Card 1 (Detail Page Context) -->
+                <div class="dest-card">
+                    <div class="dest-card-img" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDOT7WBbX9yX3j7OAIPtuveyUmhPwIcguKmxkXoKn24UBlv6rhN3CDGNGHIipHsMEnK_29mkRDdeTV6ZFP_NlFIVHceYh9MwWlZrveTUBZqWt_--y0KbWnpBKoPlIJKhja2B8YlQoqAyByQpFpEnjq8WJeQw2etkuMBo_qm_vRVYK4cBfHYzTGwlZ3dPJoe2R0omEMWHSlcAOID-grn6yIopuo7Ki4hEFmrspkTdgtkXiL-_pkgevd55rHSlVVHpiKsMB-rxFr0P-o');">
+                        <div class="dest-card-badge">
+                            <span class="material-symbols-outlined filled">star</span> 4.9
+                        </div>
+                    </div>
+                    <div class="dest-card-body">
+                        <span class="chip chip-nature">Thiên Nhiên</span>
+                        <h3>Kẽm Trống</h3>
+                        <p>Một khe nước nhỏ nơi dòng sông Đáy chảy len lỏi qua hai dãy núi đá vôi hùng vĩ. Khung cảnh tĩnh lặng, hoang sơ.</p>
+                    </div>
+                    <div class="dest-card-footer">
+                        <div class="dest-card-meta"><span class="material-symbols-outlined">location_on</span> Hà Nam</div>
+                        <div class="dest-card-meta"><span class="material-symbols-outlined">schedule</span> Luôn mở cửa</div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="dest-card">
+                    <div class="dest-card-img" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAFGnRWvCqBcwT_TqJ7AQozqYtB7LhBUgg5IBhhV4spKS-bsXl8rPMykA7g-FtVTSc8IMqLJAUcdf7sJo4fYRfIX1NWQ118UMs4MSTg0oLYrnFDQ-ZD8Znioa3FrtVCsJ2RW2EtST2C4QUGcirUHDPPqb7DrRQ35MlE5UM-VEpkSZIBnMHXP1a4148HdJOpvjn9fjOakzDWmxnn2QXiy0aRsQFf_yG2b3GCgIHkSANg2CcTlSiCxoYbD4RvFfu4Oa529K-Mc_-ITvQ');">
+                        <div class="dest-card-badge">
+                            <span class="material-symbols-outlined filled">star</span> 5.0
+                        </div>
+                    </div>
+                    <div class="dest-card-body">
+                        <span class="chip chip-nature">Di sản UNESCO</span>
+                        <h3>Danh thắng Tràng An</h3>
+                        <p>Quần thể danh thắng ngoạn mục với những rặng núi đá vôi dốc đứng ngập trong nước, hệ thống hang động kỳ bí.</p>
+                    </div>
+                    <div class="dest-card-footer">
+                        <div class="dest-card-meta"><span class="material-symbols-outlined">location_on</span> Ninh Bình</div>
+                        <div class="dest-card-meta"><span class="material-symbols-outlined">schedule</span> 2-3 Giờ</div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="dest-card">
+                    <div class="dest-card-img" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB04--hXz40lH50AZZVoEqF13L4LBirixgaZG9zkV7Qi2RYAOwA846A0tvQRahSbUM7SB47aHgButLY6F17VxI1x-lGyYm0oalbfk2Z8wIi-f6STuMMxf_dT06SZdGnjsjwugsQVAQc1MlSBQYUvjOCjvRHrz5IVOt1_Hh0UZAFaW_m_rpFPFBQiCPOFNA0vQGhE0AF1Vn0G86ZCCQKFzza88m-ctGcbNJ2pSmQzqRrxYJerwy60M80kF8Gtj8mLZRfMiee6vwozYs');">
+                        <div class="dest-card-badge">
+                            <span class="material-symbols-outlined filled">star</span> 4.8
+                        </div>
+                    </div>
+                    <div class="dest-card-body">
+                        <span class="chip chip-heritage">Văn Hoá</span>
+                        <h3>Tam Cốc - Bích Động</h3>
+                        <p>Được mệnh danh là "Vịnh Hạ Long trên cạn", với dòng sông Ngô Đồng thơ mộng uốn lượn qua những cánh đồng lúa.</p>
+                    </div>
+                    <div class="dest-card-footer">
+                        <div class="dest-card-meta"><span class="material-symbols-outlined">location_on</span> Ninh Bình</div>
+                        <div class="dest-card-meta"><span class="material-symbols-outlined">schedule</span> 2 Giờ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Bento Section (Feature deep-dive) -->
+    <section class="section bg-surface-container-low">
+        <div class="container">
+            <div class="bento-grid fade-up">
+                <!-- Main Content -->
+                <div class="bento-main">
+                    <h2 class="headline-md" style="color: var(--on-surface); margin-bottom: 24px;">Dấu ấn thời gian</h2>
+                    <p class="body-lg">Từ xa xưa, Kẽm Trống đã đi vào thơ ca, trở thành nguồn cảm hứng vô tận cho các thi nhân. Vẻ đẹp trầm mặc của những ngọn núi in bóng xuống dòng sông êm đềm tạo nên một bầu không khí nên thơ, lãng mạn.</p>
+                    <p>Hành trình xuôi dòng Đáy không chỉ là trải nghiệm ngắm cảnh, mà còn là một chuyến đi ngược dòng lịch sử, tìm về những giá trị văn hoá cốt lõi của vùng đồng bằng Bắc Bộ.</p>
+                    
+                    <div class="bento-images">
+                        <div style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB04--hXz40lH50AZZVoEqF13L4LBirixgaZG9zkV7Qi2RYAOwA846A0tvQRahSbUM7SB47aHgButLY6F17VxI1x-lGyYm0oalbfk2Z8wIi-f6STuMMxf_dT06SZdGnjsjwugsQVAQc1MlSBQYUvjOCjvRHrz5IVOt1_Hh0UZAFaW_m_rpFPFBQiCPOFNA0vQGhE0AF1Vn0G86ZCCQKFzza88m-ctGcbNJ2pSmQzqRrxYJerwy60M80kF8Gtj8mLZRfMiee6vwozYs');"></div>
+                        <div style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD4mkj8GZsEOHSXEgFozP34MZFdO7TlVAuOwBn-RER22xbf9_eYA5mkMeTgMYXcUmCF5PQqT5CHU7wG5uILXEiojsb06kxADO9hoz33JKvHj_fwzD1-3SabeMJYZxem2wLVXcanD05jZb9e1C7z_SMnbPlL9maSkpcwzqwOlJfGwLVs7kpFtX3wjsi4ZpnF8sJ-yNLwPwWpk7xk4NWCgOZLfW5xpAjCnnUD47L4qL2VSMlI8AqVfU9ovC0f65_qsuN6HHlUP9PqQes');"></div>
+                    </div>
+                </div>
+
+                <!-- Info Sidebar -->
+                <div class="bento-sidebar">
+                    <div class="info-card">
+                        <div class="info-row">
+                            <span class="material-symbols-outlined">location_on</span>
+                            <span class="title-sm">Thanh Hải, Thanh Liêm</span>
+                        </div>
+                        <hr class="info-divider">
+                        <div class="info-row">
+                            <span class="material-symbols-outlined">payments</span>
+                            <span>Vào cửa miễn phí</span>
+                        </div>
+                        <hr class="info-divider">
+                        <div class="info-row">
+                            <span class="material-symbols-outlined">schedule</span>
+                            <div style="display: flex; flex-direction: column;">
+                                <span>Luôn mở cửa</span>
+                                <span class="label-caps" style="color: var(--on-surface-variant); margin-top: 4px; opacity: 0.8; font-size: 10px;">Đẹp nhất vào Bình minh / Hoàng hôn</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mini Map Card -->
+                    <div class="info-card" style="padding: 0; overflow: hidden; height: 200px; position: relative;">
+                        <div style="position: absolute; inset: 0; background: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBpnNHe2x8_zpNLJBJrDAROflpQ8shKDfgwn-8_BiIszv6x6RH75WY05wv5X69Gv3TI3LcqMAF2KSWPs6kUsZdIGVYJ8yHMggXwCLDjCmQfW-CZRvO9r8YQaaY6rhE-YzKvF3ppJu6pknSTpgHDjWDbw_0ywjiZkLpE9UTnVJdWChoqcDNJsUUnhc2eh3fuWn8nUyF9PjsoIJcLw0PBhVXEOzC3NrEK5mku3Q5uB14CtgWyaY8QCoD85QYci5JUZaQ2MYG32IOBIOo') center/cover;"></div>
+                        <div class="glass" style="position: absolute; bottom: 16px; left: 16px; right: 16px; padding: 12px 16px; border-radius: var(--rounded); display: flex; justify-content: space-between; align-items: center;">
+                            <span class="title-sm" style="font-size: 16px;">Xem bản đồ</span>
+                            <span class="material-symbols-outlined" style="color: var(--primary);">open_in_new</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section">
+        <div class="container fade-up">
+            <div class="cta-banner">
+                <h2 class="display-lg">Bắt đầu hành trình của bạn</h2>
+                <p>Đăng ký ngay để lưu lại những điểm đến yêu thích, thiết kế lịch trình cá nhân và trải nghiệm ứng dụng bản đồ thông minh của Vietnamnomad.</p>
+                <button class="btn btn-primary">
+                    Tạo tài khoản miễn phí
+                    <span class="material-symbols-outlined">arrow_forward</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="nav-brand">Vietnamnomad</a>
+                    <p>Khám phá vẻ đẹp di sản văn hoá và thiên nhiên kỳ vĩ qua lăng kính du lịch hiện đại.</p>
+                </div>
+                <div>
+                    <h4>Khám phá</h4>
+                    <ul>
+                        <li><a href="#">Bản đồ di sản</a></li>
+                        <li><a href="#">Điểm đến</a></li>
+                        <li><a href="#">Lịch trình mẫu</a></li>
+                        <li><a href="#">Cẩm nang du lịch</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Vietnamnomad</h4>
+                    <ul>
+                        <li><a href="#">Về chúng tôi</a></li>
+                        <li><a href="#">Báo chí</a></li>
+                        <li><a href="#">Nghề nghiệp</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Pháp lý</h4>
+                    <ul>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Chính sách cookie</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Vietnamnomad. All rights reserved.</p>
+                <div style="display: flex; gap: 16px;">
+                    <a href="#" style="color: white;"><span class="material-symbols-outlined">language</span></a>
+                    <a href="#" style="color: white;"><span class="material-symbols-outlined">share</span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Scripts -->
+    <script>
+        // Navbar Scroll Effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.remove('nav--transparent');
+                navbar.classList.add('nav--solid');
+            } else {
+                navbar.classList.add('nav--transparent');
+                navbar.classList.remove('nav--solid');
+            }
+        });
+
+        // Fade Up Animation Observer
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-up').forEach(element => {
+            observer.observe(element);
+        });
+    </script>
+</body>
+</html>
